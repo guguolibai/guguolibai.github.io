@@ -82,7 +82,7 @@ const previewPapers = [
   { title: 'BERT: Pre-training of Deep Bidirectional Transformers', venue: 'NAACL', year: '2019' },
 ]
 const previewProjects = [
-  { title: '智能数据可视化平台', tech: 'Vue 3 · D3.js · WebSocket' },
+  { title: '多模态面试 Agent 智能体', tech: 'LLM · Agent · 多模态' },
   { title: 'AI 聊天助手', tech: 'React · Node.js · LLM' },
   { title: '开源组件库', tech: 'TypeScript · Vite' },
 ]

@@ -25,16 +25,7 @@
 import { onMounted } from 'vue'
 import gsap from 'gsap'
 
-const skills = [
-  { name: 'JavaScript', level: 90 },
-  { name: 'TypeScript', level: 85 },
-  { name: 'Vue.js', level: 90 },
-  { name: 'React', level: 80 },
-  { name: 'Node.js', level: 85 },
-  { name: 'Python', level: 75 },
-  { name: 'CSS / Tailwind', level: 90 },
-  { name: 'Docker', level: 70 },
-]
+const skills = []
 
 onMounted(() => {
   gsap.fromTo('.skill-card',

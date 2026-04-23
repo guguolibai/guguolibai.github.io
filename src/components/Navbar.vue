@@ -2,7 +2,7 @@
   <nav class="fixed top-0 w-full z-[100] px-6 py-5 transition-all duration-300"
     :class="scrolled ? 'bg-white/70 backdrop-blur-md border-b border-black/5' : ''">
     <div class="max-w-5xl mx-auto flex justify-between items-center">
-      <router-link to="/" class="font-mono text-sm accent">~/portfolio</router-link>
+      <router-link to="/" class="font-mono text-sm accent">~/GuguoLibai</router-link>
       <div class="hidden md:flex gap-8">
         <router-link v-for="link in links" :key="link.to" :to="link.to"
           class="text-sm text-[#52525b] hover:text-[#6366f1] transition-colors duration-300"

@@ -39,7 +39,7 @@ import { onMounted } from 'vue'
 import gsap from 'gsap'
 
 const projects = [
-  { title: '智能数据可视化平台', desc: '基于 Vue 3 和 D3.js 构建的实时数据可视化仪表盘，支持多种图表类型和自定义主题。', tags: ['Vue 3', 'D3.js', 'WebSocket'] },
+  { title: '多模态面试 Agent 智能体', desc: '基于多模态大模型构建的智能面试系统，支持语音、视频、文本多通道交互，实现自动化面试评估与反馈。作为核心开发人员，独立负责整套流水线的设计与实现。荣获中国大学生计算机设计大赛国家级一等奖。', tags: ['LLM', 'Agent', '多模态'] },
   { title: 'AI 聊天助手', desc: '集成大语言模型的智能对话应用，支持上下文记忆和多轮对话。', tags: ['React', 'Node.js', 'LLM'] },
   { title: '开源组件库', desc: '一套精心设计的 UI 组件库，包含 30+ 组件，支持主题定制和暗色模式。', tags: ['TypeScript', 'Storybook', 'Vite'] },
 ]

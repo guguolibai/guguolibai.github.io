@@ -3,13 +3,13 @@
     <div class="max-w-3xl mx-auto">
       <p class="hero-greeting font-mono text-sm accent mb-6 tracking-wider">你好，我是</p>
       <h1 class="hero-name text-5xl md:text-7xl font-semibold text-[#18181b] mb-4 tracking-tighter">
-        你的名字
+        GuguoLibai
       </h1>
       <h2 class="hero-role text-3xl md:text-5xl font-light text-[#52525b] mb-8 tracking-tight">
         软件工程学生 & 科研工作者
       </h2>
       <p class="hero-desc text-[#52525b] max-w-xl mb-12 leading-relaxed tracking-normal">
-        热爱用代码创造美好事物。专注于构建高性能、优雅的 Web 应用，追求技术与设计的完美融合。目前专注于深度学习与前端工程化方向的研究。
+        热爱用代码创造美好事物。专注于构建高性能、优雅的应用，追求技术与设计的完美融合。目前从事图学习相关的科研工作，同时专注于深度学习与agent后端开发研究。
       </p>
       <div class="hero-cta flex gap-4 flex-wrap">
         <router-link to="/projects"
