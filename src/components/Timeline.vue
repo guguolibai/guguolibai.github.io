@@ -21,12 +21,7 @@
 import { onMounted } from 'vue'
 import gsap from 'gsap'
 
-const timeline = [
-  { year: '2024 - 至今', title: '高级前端工程师 @ 某科技公司', desc: '负责核心产品前端架构设计，带领团队完成多个重要项目。' },
-  { year: '2022 - 2024', title: '全栈开发者 @ 创业公司', desc: '从零搭建产品技术栈，独立完成前后端开发和部署。' },
-  { year: '2020 - 2022', title: '前端开发工程师 @ 互联网公司', desc: '参与大型 SPA 应用开发，优化性能和用户体验。' },
-  { year: '2016 - 2020', title: '计算机科学学士 @ 某大学', desc: '系统学习计算机基础知识，参与多个开源项目。' },
-]
+const timeline = []
 
 onMounted(() => {
   gsap.fromTo('.timeline-item',

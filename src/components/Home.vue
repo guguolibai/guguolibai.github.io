@@ -86,8 +86,5 @@ const previewProjects = [
   { title: 'AI 聊天助手', tech: 'React · Node.js · LLM' },
   { title: '开源组件库', tech: 'TypeScript · Vite' },
 ]
-const previewTimeline = [
-  { year: '2024', title: '高级前端工程师 @ 某科技公司' },
-  { year: '2022', title: '全栈开发者 @ 创业公司' },
-]
+const previewTimeline = []
 </script>
