@@ -10,6 +10,8 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+# Private manuscript: do not include it in the site or a future deployment.
+public/papers/DUET.pdf
 *.local
 
 # Editor directories and files
