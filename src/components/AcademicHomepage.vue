@@ -47,7 +47,7 @@ onUnmounted(() => observer?.disconnect())
         </div>
       </div>
       <div class="sidebar-details">
-        <p class="profile-interests"><span aria-hidden="true">🔬</span> Graph Learning, LLM, Agent</p>
+        <p class="profile-interests"><span aria-hidden="true">🔬</span> Graph Learning, Large Language Models (LLMs), Agent</p>
         <div class="profile-links">
           <a v-if="profile.email" :href="`mailto:${profile.email}`" :aria-label="`Email: ${profile.email}`"><i class="reference-icon icon-envelope" aria-hidden="true"></i><span>Email</span></a>
           <a :href="profile.github" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="reference-icon reference-brand icon-github" aria-hidden="true"></i><span>GitHub</span></a>
