@@ -74,7 +74,7 @@ svg { display: block; }
 main { min-width: 0; }
 .about-description { margin-bottom: .5em; }
 .section-title { font-size: 1.4em; margin: 1em 0 .5em; padding-bottom: .5em; border-bottom: 1px solid var(--border); }
-.research-list li { margin-bottom: .5em; }
+.research-list li, .news-list li { margin-bottom: .5em; }
 .publication-row { display: grid; grid-template-columns: 40% minmax(0, 1fr); align-items: center; padding: 2em 0; border-bottom: 1px solid #efefef; }
 .publication-row.without-image { grid-template-columns: 1fr; }
 .paper-figure { position: relative; min-width: 0; }

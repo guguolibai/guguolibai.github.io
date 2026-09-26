@@ -1,10 +1,10 @@
 <script setup>
 import { onMounted, onUnmounted, ref } from 'vue'
-import { copy, profile, publications, research } from '../content'
+import { copy, news, profile, publications, research } from '../content'
 
 const menuOpen = ref(false)
 const active = ref('about')
-const navigation = Object.entries(copy.nav).filter(([id]) => id !== 'publications' || publications.length)
+const navigation = Object.entries(copy.nav).filter(([id]) => (id !== 'publications' || publications.length) && (id !== 'news' || news.length))
 let observer
 
 onMounted(() => {
@@ -60,6 +60,13 @@ onUnmounted(() => observer?.disconnect())
     <main id="main-content">
       <section id="about" aria-label="About Me">
         <p class="about-description">{{ profile.bio }}</p>
+      </section>
+
+      <section v-if="news.length" id="news" class="content-section">
+        <h2 class="section-title"><span class="section-icon" aria-hidden="true">📣</span> {{ copy.news }}</h2>
+        <ul class="news-list">
+          <li v-for="item in news" :key="`${item.date}-${item.text}`"><strong>[{{ item.date }}]</strong> {{ item.text }}</li>
+        </ul>
       </section>
 
       <section id="research" class="content-section">

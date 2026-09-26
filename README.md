@@ -15,7 +15,7 @@ Run `npm run build` to create `dist/`, or `npm run preview` to inspect the produ
 
 ## Edit content
 
-All personal information, research interests, and publication entries are in `src/content.js`. Empty CV, Scholar, or email fields hide their links. An empty publications array hides both the publication section and its navigation link.
+All personal information, news, research interests, and publication entries are in `src/content.js`. The `news` array populates the What's New section immediately below the introduction. Use only confirmed dates, with the year alone when the month is unknown. Empty CV, Scholar, or email fields hide their links. Empty news or publications arrays hide the corresponding section and navigation link.
 
 DUET is listed as **ACM MM 2026**. Its paper link is intentionally disabled (`paper: null`), and the manuscript PDF is excluded from the site and source package. Do not add a downloadable copy until the owner authorizes release. A null resource link renders as a disabled label; a URL enables the link.
 

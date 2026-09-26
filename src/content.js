@@ -18,6 +18,11 @@ export const research = [
   { short: 'Agent', title: 'AI Agents', description: 'Decision-making, tool use, and task execution with language-model-based agents.' },
 ]
 
+// Use the confirmed year until a more specific acceptance date is provided.
+export const news = [
+  { date: '2026', text: 'Our paper DUET has been accepted to ACM Multimedia 2026!' },
+]
+
 // Details transcribed from the supplied PDF. ACM MM 2026 confirmed by the owner.
 // DOI and code links are omitted because they currently return HTTP 404.
 export const publications = [
@@ -34,7 +39,8 @@ export const publications = [
 ]
 
 export const copy = {
-  nav: { about: 'About Me', research: 'Research', publications: 'Publications', education: 'Education', contact: 'Contact' },
+  nav: { about: 'About Me', news: "What's New", research: 'Research', publications: 'Publications', education: 'Education', contact: 'Contact' },
+  news: "What's New",
   interests: 'Research Interests',
   publications: 'Publications',
   education: 'Education',
