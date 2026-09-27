@@ -91,6 +91,13 @@ main { min-width: 0; }
 .section-icon { font-weight: 400; }
 #contact a { overflow-wrap: anywhere; }
 .page-footer { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1em; margin-top: 2em; padding: 1em 0; border-top: 1px solid var(--border); color: var(--nav); }
+.site-analytics { margin-top: 2em; padding-top: 1em; border-top: 1px solid var(--border); text-align: center; }
+.site-analytics h2 { margin: 0 0 .25em; font-size: 1em; font-weight: 400; line-height: 1.5; }
+.analytics-map-frame { position: relative; width: 100%; max-width: 400px; min-height: 228px; margin: 0 auto; }
+.analytics-widget { width: 100%; }
+.analytics-loading { visibility: hidden; }
+.analytics-message { position: absolute; inset: 0; display: grid; align-content: center; margin: 0; padding: 1em; color: var(--nav); }
+.analytics-pending { border: 1px solid var(--border); }
 
 @media (min-width: 1280px) {
   .header-inner, .page-layout { max-width: 1280px; }

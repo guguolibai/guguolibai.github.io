@@ -1,6 +1,7 @@
 <script setup>
 import { onMounted, onUnmounted, ref } from 'vue'
 import { copy, news, profile, publications, research } from '../content'
+import SiteAnalytics from './SiteAnalytics.vue'
 
 const menuOpen = ref(false)
 const active = ref('about')
@@ -103,6 +104,7 @@ onUnmounted(() => observer?.disconnect())
         <p>{{ copy.contactBody }}</p>
         <p v-if="profile.email">Email: <a :href="`mailto:${profile.email}`">{{ profile.email }}</a></p>
       </section>
+      <SiteAnalytics />
       <footer class="page-footer"><span>© {{ new Date().getFullYear() }} {{ profile.name }}</span><a href="#about">Back to top ↑</a></footer>
     </main>
   </div>

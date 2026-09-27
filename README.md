@@ -40,6 +40,12 @@ Place images and a public CV in `public/`. The current avatar comes from the own
 
 The existing `.github/workflows/deploy.yml` builds and publishes pushes to `main`. The repository should use **GitHub Actions** as the GitHub Pages source. The intended address remains `https://guguolibai.github.io/`.
 
+## Visitor map
+
+`SiteAnalytics.vue` integrates the same MapMyVisitors map used by the reference homepage. Create a free map widget for `https://guguolibai.github.io/` at https://mapmyvisitors.com/add, then copy the `d=` identifier from that site's embed code into `analytics.mapId` in `src/content.js`. Set `analytics.since` to the month when tracking actually begins. No password or account credential belongs in this configuration.
+
+The map is centered at a maximum width of 400px and scales to the available width. Tracking runs only on `guguolibai.github.io`, not on local previews. Until a site-specific identifier is configured, development shows an empty preview area and production hides the section. Counts and locations always come from MapMyVisitors; no sample visits or historical counts are supplied. The provider receives visitor requests and displays approximate geolocation, rather than requesting the browser's precise location.
+
 ## Design
 
 The page follows the EchoPickle/AcadHomepage reference with a plain white background, Trebuchet MS / Helvetica typography, 15px body text, 21px section headings, #494e52 body text, and #224b8d links. It uses a profile sidebar, simple content lists, and publication figures alongside text. The Vue components and CSS are written for this site. There are no language controls, background illustrations, gradients, or decorative cards.

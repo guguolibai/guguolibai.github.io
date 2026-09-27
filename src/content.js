@@ -23,6 +23,14 @@ export const news = [
   { date: '2026', text: 'Our paper DUET has been accepted to ACM Multimedia 2026!' },
 ]
 
+// Set mapId to the d= value from this site's own MapMyVisitors embed code.
+// Keep it empty until setup is complete; never reuse another site's ID.
+export const analytics = {
+  mapId: 'Xw7MfXDtT025wQOarl2P8FPj6uzHwzKWwrcJHg52EKE',
+  since: 'Sep. 2026',
+  hostname: 'guguolibai.github.io',
+}
+
 // Details transcribed from the supplied PDF. ACM MM 2026 confirmed by the owner.
 // DOI and code links are omitted because they currently return HTTP 404.
 export const publications = [
