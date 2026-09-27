@@ -98,6 +98,8 @@ main { min-width: 0; }
 .analytics-loading { visibility: hidden; }
 .analytics-message { position: absolute; inset: 0; display: grid; align-content: center; margin: 0; padding: 1em; color: var(--nav); }
 .analytics-pending { border: 1px solid var(--border); }
+.site-analytics #mapmyvisitors-widget, .site-analytics .mapmyvisitors-map { width: 100% !important; max-width: 100%; }
+.site-analytics .mapmyvisitors-map { height: auto !important; aspect-ratio: 2.04; background-size: 100% 100%; }
 
 @media (min-width: 1280px) {
   .header-inner, .page-layout { max-width: 1280px; }
