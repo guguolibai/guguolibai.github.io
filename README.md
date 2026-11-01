@@ -40,6 +40,12 @@ Place images and a public CV in `public/`. The current avatar comes from the own
 
 The existing `.github/workflows/deploy.yml` builds and publishes pushes to `main`. The repository should use **GitHub Actions** as the GitHub Pages source. The intended address remains `https://guguolibai.github.io/`.
 
+## Visitor analytics
+
+Cloudflare Web Analytics is installed in `index.html` using the snippet generated for `guguolibai.github.io`. View reports in the Cloudflare dashboard under **Observability → Analytics → Web analytics**, then select this hostname. The site continues to be hosted on GitHub Pages.
+
+The snippet's site token is a public ingestion identifier, not a Cloudflare API credential. Report access is controlled by the Cloudflare account; the homepage does not publish a visitor counter or analytics dashboard. Statistics start from the time the snippet is deployed.
+
 ## Design
 
 The page follows the EchoPickle/AcadHomepage reference with a plain white background, Trebuchet MS / Helvetica typography, 15px body text, 21px section headings, #494e52 body text, and #224b8d links. It uses a profile sidebar, simple content lists, and publication figures alongside text. The Vue components and CSS are written for this site. There are no language controls, background illustrations, gradients, or decorative cards.
