@@ -9,13 +9,13 @@ export const profile = {
   affiliation: 'Sichuan University',
   major: 'Computer Science and Technology',
   educationDates: '2023–2027',
-  bio: 'Hi! I am a student in Computer Science and Technology at Sichuan University (2023–2027). My research interests include graph learning, large language models (LLMs), and AI agents.',
+  bio: 'Hi! I am a student in Computer Science and Technology at Sichuan University (2023–2027). My research focuses on large language models (LLMs), AI agents, and post-training.',
 }
 
 export const research = [
-  { short: 'Graph Learning', title: 'Graph Learning', description: 'Representation learning and predictive modeling for graph-structured data.' },
   { short: 'LLM', title: 'Large Language Models (LLMs)', description: 'Language understanding, generation, and reasoning with large language models.' },
   { short: 'Agent', title: 'AI Agents', description: 'Decision-making, tool use, and task execution with language-model-based agents.' },
+  { short: 'Post-training', title: 'Post-training', description: 'Improving LLM capabilities after pre-training through reinforcement learning (RL), on-policy distillation (OPD), and preference alignment.' },
 ]
 
 // Use the confirmed year until a more specific acceptance date is provided.
@@ -45,5 +45,5 @@ export const copy = {
   publications: 'Publications',
   education: 'Education',
   contact: 'Contact',
-  contactBody: 'I welcome conversations about graph learning, LLMs, and AI agents.',
+  contactBody: 'I welcome conversations about LLMs, AI agents, and post-training.',
 }
