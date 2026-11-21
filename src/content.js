@@ -15,6 +15,7 @@ export const research = [
   { short: 'LLM', title: 'Large Language Models (LLMs)', description: 'Language understanding, generation, and reasoning with large language models.' },
   { short: 'Agent', title: 'AI Agents', description: 'Decision-making, tool use, and task execution with language-model-based agents.' },
   { short: 'Post-training', title: 'Post-training', description: 'Improving LLM capabilities after pre-training through reinforcement learning (RL), on-policy distillation (OPD), and preference alignment.' },
+  { short: 'Graph', title: 'Graph Learning', description: 'Representation learning and reasoning on graph-structured data.' },
 ]
 
 // Use the confirmed year until a more specific acceptance date is provided.
