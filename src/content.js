@@ -8,7 +8,7 @@ export const profile = {
   scholar: '',
   affiliation: 'Sichuan University',
   major: 'Computer Science and Technology',
-  bio: 'Hi! I am a student in Computer Science and Technology at Sichuan University. My research focuses on large language models (LLMs), AI agents, and post-training.',
+  bio: 'Hi! I am a student in Computer Science and Technology at Sichuan University. My research focuses on large language models (LLMs), AI agents, post-training, and graph learning.',
 }
 
 export const research = [
@@ -45,5 +45,5 @@ export const copy = {
   publications: 'Publications',
   education: 'Education',
   contact: 'Contact',
-  contactBody: 'I welcome conversations about LLMs, AI agents, and post-training.',
+  contactBody: 'I welcome conversations about LLMs, AI agents, post-training, and graph learning.',
 }
