@@ -95,7 +95,7 @@ onUnmounted(() => observer?.disconnect())
 
       <section id="education" class="content-section">
         <h2 class="section-title"><span class="section-icon" aria-hidden="true">🎓</span> {{ copy.education }}</h2>
-        <ul><li>{{ profile.educationDates }}, {{ profile.major }}, {{ profile.affiliation }}.</li></ul>
+        <ul><li>{{ profile.major }}, {{ profile.affiliation }}.</li></ul>
       </section>
 
       <section id="contact" class="content-section">
